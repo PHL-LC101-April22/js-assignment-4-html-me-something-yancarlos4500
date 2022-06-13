@@ -1,10 +1,11 @@
 /* Write your CSS here! */
 body{
-    margin: 0;
+    margin: 8px;
     text-align: center;
  }
  header{
     position: absolute;
+    margin: -8px;
     top: 0;
     margin-top: 0;
     width: 100%;
@@ -24,6 +25,12 @@ body{
     font-size: 35px;
     color: #006e99;
  }
+#mainHeading{
+    color:red;
+}
+.funParagraph{
+    color:green;
+}
  article
  {
     margin-top: 350px;
@@ -43,6 +50,7 @@ a:hover{
  color:#75ca06;
 }
 footer{
+    margin: -8px;
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  font-size: 30px;
  padding: 50px;
