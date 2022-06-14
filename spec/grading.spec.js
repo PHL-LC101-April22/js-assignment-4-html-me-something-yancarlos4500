@@ -65,7 +65,7 @@ describe ("Grading Tests: ", function () {
    })
 
    it("CSS funParagraph class is green", function() {
-      let funParagraphElement = container.getElementById("testP");
+      let funParagraphElement = container.getElementsByClassName("funParagraph")[0];
       expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
    })
 
